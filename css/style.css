@@ -1,0 +1,396 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Lato', sans-serif;
+}
+body {
+	background-color: #616161;
+	padding-bottom: 30px;
+}
+.container {
+	width: 960px;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+.text {
+	color: white;
+}
+
+.header {
+	width: 100%;
+	height: 40px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: #bdbdbd;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 1000;
+}
+.header__left {
+	width: 40px;
+	height: 40px;
+	background-color: #0097a7;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	transition: 0.3s;
+}
+.header__left:hover {
+	background-color: #075961;
+}
+hr {
+	width: 25px;
+	height: 3px;
+	background-color: white;
+	margin-bottom: 3px;
+}
+.header__right {
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	background-color: #eeeeee;
+	margin-right: 30px;
+	transition: 0.3s;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.loupe {
+	width: 14px;
+}
+.header__right:hover {
+	background-color: #d3d3d3;
+}
+
+
+.image__box {
+	padding: 30px;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	transition: 0.3s;
+}
+.image__box:hover {
+	transform: scaleX(1.03) scaleY(1.03);
+}
+.box__top {
+	font-weight: bold;
+	margin-bottom: 15px;
+	font-size: 12px;
+}
+.box__main {
+	font-size: 32px;
+}
+.box__arrow {
+	width: 50px;
+	position: absolute;
+	bottom: 30px;
+	right: 30px;
+	cursor: pointer;
+}
+
+/*FIRST*/
+
+.first {
+	width: 100%;
+	height: 100%;
+	margin-top: 100px;
+	display: grid;
+	grid-template-rows: 250px 350px 250px;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 15px; 
+}
+.first__box {
+	background-repeat: no-repeat;
+}
+.first__one {
+	background-image: url(../img/b6953fff.jpg);
+	background-position: center;
+	background-size: cover;
+}
+.first__two {
+	background-image: url(../img/mitsubishi-lancer-mitsubishi-lancer-evolution-ix-stancenation-stance-wallpaper-preview.jpg);
+	background-position: center;
+	background-size: cover;
+}
+.first__three {
+	grid-row: 1/3;
+	grid-column: 3/5;
+	background-image: url(../img/screen-0.jpg);
+	background-position: center;
+	background-size: cover;
+}
+.first__four {
+	grid-row: 2/4;
+	grid-column: 1/3;
+	background-image: url(../img/thumb2-mitsubishi-lancer-evolution-x-front-view-exterior-black-sedan-tuning-evolution-x.jpg);
+	background-position: center;
+	background-size: cover;
+}
+.first__five {
+	grid-column: 3/5;
+	background-image: url(../img/1461937224_mitsubishi-lancer-evolution-8.jpg);
+	background-position: center;
+	background-size: cover;
+}
+.instagram {
+	width: 30px;
+}
+
+
+/*SECOND*/
+
+.second {
+	width: 100%;
+	height: 700px;
+	margin-top: 15px;
+	background-image: url(../img/mitsubishi-lancer-evolution-9-4196.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+/*THIRD*/
+
+.third {
+	width: 100%;
+	height: 400px;
+	margin-top: 15px;
+	background-image: url(../img/wpapers_ru_Mitsubishi-Lancer-Evo.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+/*FOURTH*/
+
+.fourth {
+	width: 100%;
+	height: 100%;
+	margin-top: 15px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: 400px 110px 240px 110px 450px;
+	grid-gap: 15px;
+}
+.fourth__one {
+	grid-row: 1/2;
+	background-image: url(../img/Mitsubishi-Lancer-Evolution-640x1136.jpg);
+	background-position: center;
+	background-size: cover;
+}
+.fourth__two {
+	grid-row: 1/3;
+	background-image: url(../img/white-white-mitsubishi-lancer-wallpaper-preview.jpg);
+	background-position: center;
+	background-size: cover;
+}
+.fourth__three {
+	grid-row: 2/5;
+	background-image: url(../img/mitsubishi-lancer-evo-ix.jpg);
+	background-position: center;
+	background-size: cover;
+}
+.fourth__four {
+	grid-row: 3/4;
+	background-image: url(../img/1A73CD94-05F2-4BEB-BAEB-7E8B343FC578-1024x576-MM-90.jpeg);
+	background-position: center;
+	background-size: cover;
+}
+.fourth__five {
+	grid-row: 5/6;
+	background-image: url(../img/240e38cda4778e356bd88d97126d599163e27517.jpg);
+	background-position: center;
+	background-size: cover;
+}
+.fourth__six {
+	grid-row: 4/6;
+	background-image: url(../img/mitsubishi-lancer-evolution-1912.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+/*FIFTH*/
+
+.fifth {
+	width: 100%;
+	height: 450px;
+	margin-top: 15px;
+	background-image: url(../img/mitsubashi-lancer-evolution-8-legend-evo-8-black-lancer.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+
+
+
+/* -------------------- */
+/* MEDIA */
+/* -------------------- */
+
+@media screen and (max-width: 980px) and (min-width: 741px) {
+	.container {
+		width: 720px;
+	}
+	.header {
+		width: 100vw;
+	}
+	.image__box {
+		padding: 25px;	
+	}
+	.box__main {
+		font-size: 26px;
+	}
+	.box__bottom {
+		font-size: 12px;
+	}
+	.box__arrow {
+		width: 40px;
+	}
+}
+
+
+@media screen and (max-width: 740px) and (min-width: 461px) {
+	.container {
+		width: 100%;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.header {
+		width: 100vw;
+	}
+	.first {
+		display: grid;
+		grid-template-rows: 250px 650px 250px 400px;
+		grid-template-columns: repeat(2, 1fr);
+	}
+	.first__one {
+		grid-column: 1/2;
+		grid-row: 1/2;
+	}	
+	.first__two {
+		grid-column: 2/3;
+		grid-row: 1/2;
+	}
+	.first__three {
+		grid-column: 1/3;
+		grid-row: 2/3;
+	}
+	.first__four {
+		grid-column: 1/3;
+		grid-row: 3/4;
+	}
+	.first__five {
+		grid-column: 1/3;
+		grid-row: 4/5;
+	}
+	.second {
+		background-position: 70% 50%;
+	}
+	.image__box {
+		padding: 25px;	
+	}
+	.box__main {
+		font-size: 26px;
+	}
+	.box__bottom {
+		font-size: 12px;
+	}
+	.box__arrow {
+		width: 40px;
+	}
+}
+
+
+
+
+
+@media screen and (max-width: 460px) {
+	.container {
+		width: 100%;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.header {
+		width: 100vw;
+	}
+	.header__right {
+		margin-right: 20px;
+	}
+	.first {
+		display: grid;
+		grid-template-rows: 250px 650px 250px 200px;
+		grid-template-columns: repeat(2, 1fr);
+	}
+	.first__one {
+		grid-column: 1/2;
+		grid-row: 1/2;
+	}	
+	.first__two {
+		grid-column: 2/3;
+		grid-row: 1/2;
+	}
+	.first__three {
+		grid-column: 1/3;
+		grid-row: 2/3;
+	}
+	.first__four {
+		grid-column: 1/3;
+		grid-row: 3/4;
+	}
+	.first__five {
+		grid-column: 1/3;
+		grid-row: 4/5;
+	}
+	.second {
+		background-position: 70% 50%;
+	}
+	.fourth {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: repeat(2, 400px) 250px repeat(2, 400px);
+	}
+	.fourth__one {
+		grid-row: 1/2;
+		grid-column: 1/3;
+	}
+	.fourth__two {
+		grid-row: 2/3;
+		grid-column: 1/3;
+	}
+	.fourth__three {
+		grid-row: 3/4;
+		grid-column: 1/2;
+	}
+	.fourth__four {
+		grid-row: 3/4;
+		grid-column: 2/3;
+		background-position: 80% 50%;
+	}
+	.fourth__five {
+		grid-row: 4/5;
+		grid-column: 1/3;
+	}
+	.fourth__six {
+		grid-row: 5/6;
+		grid-column: 1/3;
+	}
+	.fifth {
+		height: 600px;
+	}
+	.image__box {
+		padding: 25px;	
+	}
+	.box__main {
+		font-size: 26px;
+	}
+	.box__bottom {
+		font-size: 12px;
+	}
+	.box__arrow {
+		width: 40px;
+	}
+}
